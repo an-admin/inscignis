@@ -1501,12 +1501,12 @@ z-index: 999;
     height: auto;
 }
 
-/* Remove bottom circles */
+/* Remove bottom indicators */
 .carousel-indicators {
     display: none;
 }
 
-/* Positioning carousel controls at the vertical center but on the sides */
+/* Centering carousel controls vertically */
 #main_slider .carousel-control-prev,
 #main_slider .carousel-control-next {
     width: 55px;
