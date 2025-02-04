@@ -1460,105 +1460,99 @@ z-index: 999;
 
 
 /** download section **/
-
 .Screenshot {
-	padding-top: 90px;
-	padding-bottom: 90px;
-	background: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #ffffff;
 }
 
 .Screenshot .titlepage {
-	padding-bottom: 60px;
-	text-align: center;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
 .Screenshot .titlepage span {
-	color: #000000;
-	font-size: medium;
+    color: #000000;
+    font-size: medium;
 }
 
 .Screenshot .titlepage h2 {
-	padding: 0px 0px 6px 0px;
-font-size: 40px;
-font-weight: bold;
-color: #050303;
-line-height: 46px;
-margin-bottom: 0px;
-margin-bottom: 20px;
-border-bottom: #000000 solid 0px;
-width: 242px;
-margin: 0 auto;
-margin-bottom: 0px;
-margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #050303;
+    line-height: 46px;
+    margin-bottom: 20px;
+    width: 242px;
+    margin: 0 auto 20px;
 }
+
 .carousel-item {
-	text-align: center;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
 }
 
-.carousel-control-prev {
-	left: inherit;
+#main_slider .carousel-inner {
+    display: flex;
+    align-items: center;
 }
 
-#main_slider .carousel-control-prev,
-#main_slider .carousel-control-next {
-	width: 55px;
-	height: 55px;
-	background: #000;
-	opacity: 1;
-	font-size: 30px;
-	color: #fff;
-	border-radius: 25px;
+#main_slider .carousel-item img {
+    max-width: 100%;
+    height: auto;
 }
 
-#main_slider .carousel-control-prev:hover,
-#main_slider .carousel-control-next:hover,
-#main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-next:focus {
-	background: black;
-	color: #fff;
-	border-radius: 25 px;
+.carousel-indicators {
+    bottom: -30px;
 }
 
-#main_slider .carousel-item{
-	margin-bottom: 100px;
+.carousel-indicators li {
+    background-color: #000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
 }
 
-#main_slider a.carousel-control-prev {
-	position: absolute;
-	top: 40%;
+.carousel-control-prev,
+.carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background: #000;
+    opacity: 1;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
 }
 
-#main_slider a.carousel-control-next {
-	position: absolute;
-	top: 40%;
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: black;
+    color: #fff;
 }
 
 .read-more {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .read-more a {
-	background: #0659ff;
-	width: 206px;
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-	padding: 15px 0px;
-	font-weight: 500;
-	font-size: 17px;
-	line-height: 30px;
-	margin-top: -27px;
-	border-radius: 25px;
-	transition: ease-in all 0.5s;
- 
+    background: #0659ff;
+    width: 206px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    border-radius: 25px;
+    transition: ease-in-out all 0.5s;
 }
 
 .read-more a:hover {
-	background: #059bf8;
-    border-radius: 25px;
-    transition: ease-in all 0.5s;
+    background: #059bf8;
 }
 
 
