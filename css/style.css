@@ -1501,20 +1501,14 @@ z-index: 999;
     height: auto;
 }
 
+/* Remove bottom circles */
 .carousel-indicators {
-    bottom: -30px;
+    display: none;
 }
 
-.carousel-indicators li {
-    background-color: #000;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    margin: 5px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
+/* Positioning carousel controls at the vertical center but on the sides */
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
     width: 55px;
     height: 55px;
     background: #000;
@@ -1522,6 +1516,16 @@ z-index: 999;
     font-size: 30px;
     color: #fff;
     border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main_slider .carousel-control-prev {
+    left: -60px;
+}
+
+#main_slider .carousel-control-next {
+    right: -60px;
 }
 
 .carousel-control-prev:hover,
@@ -1554,7 +1558,6 @@ z-index: 999;
 .read-more a:hover {
     background: #059bf8;
 }
-
 
 /** end download section **/
 
